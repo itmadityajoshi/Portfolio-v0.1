@@ -14,7 +14,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="fixed w-full h-[80px] bg-[#2a2b2b] text-white flex justify-between items-center">
+      <div className="fixed z-10 w-full h-[80px] bg-[#2a2b2b] text-white flex justify-between items-center">
         <div className="">
         <img src="" alt="logo image" />
         </div>
@@ -22,7 +22,7 @@ const Navbar = () => {
         {/* menu */}
 
         <div>
-          <ul className="hidden md:flex ">
+          <ul className="hidden md:flex mx-10 ">
             <li>Home </li>
             <li>About</li>
             <li>Skills</li>

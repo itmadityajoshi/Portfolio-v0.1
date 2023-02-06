@@ -1,9 +1,18 @@
-import React from 'react'
+import React from "react";
 
 const Portfolio = () => {
   return (
-    <div>Portfolio</div>
-  )
-}
+    <>
+      <div name ="portfolio"className="w-full h-screen">
 
-export default Portfolio
+      <div className="w-full h-full bg-red-500">
+
+
+      </div>
+
+      </div>
+    </>
+  );
+};
+
+export default Portfolio;

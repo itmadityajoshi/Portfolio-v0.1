@@ -3,38 +3,32 @@ import React from "react";
 const About = () => {
   return (
     <>
-      <div className="w-full  h-screen ">
-        <div className=" w-full h-screen flex flex-col items-center justify-center">
-          <div className="grid grid-cols-2 gap-5 max-w-[1000px] w-full justify-center items-center">
-            <div className="sm:text-right pb-8 pl-8">
-              <p className="text-3xl inline  font-bold border-b-4 border-red-600">
+      <div className="w-full h-screen text-gray">
+        <div className="flex flex-col justify-center items-center w-full h-full">
+          <div className="max-w-[1368px] w-full grid grid-cols-2  gap-4">
+            <div className="sm:text-right pb-4 pl-4 ">
+              <p className="font-bold text-3xl inline border-b-4 border-red-500">
                 About
               </p>
             </div>
 
-            <div> </div>
-
+            <div></div>
           </div>
 
-            <div className="grid sm:grid-cols-2 max-w-[1000px] w-full gap-5 px-4">
-              <div className="sm:text-right  font-bold text-3xl">
-               <p>Hi, I'm Aditya, nice to meet you. Please take a look around.</p>
-              </div>
+          <div className="max-w-[1368px] w-full grid sm:grid-cols-2 items-center gap-4">
 
-              <div> 
-                <p className="">
-                  I am passionate about building excellent software that
-                  improves the lives of those around me. I specialize in
-                  creating software for clients ranging from individuals and
-                  small-business all the way to large enterprise corporations.
-                  What would you do if you had a software expert avaiable at
-                  your fingertips?
-                </p>
-              </div>
+            <div className="sm:text-right">
+              <p className="px-4 ">Hi, I'm Aditya Joshi. Please look around me.</p>
+            </div>
+
+            <div>
+              <p className="px-4 ">
+                I am going to be a Fullstack Developer.
+              </p>
             </div>
           </div>
         </div>
-   
+      </div>
     </>
   );
 };
