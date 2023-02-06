@@ -3,7 +3,7 @@ import React from "react";
 const Contact = () => {
   return (
     <>
-      <footer className="footer p-10  bg-[#2a2b2b] text-white">
+      <footer  name ='contact'className="footer p-10  bg-[#2a2b2b] text-white">
         <div className="mx-16  ">
           <p className="font-bold text-3xl ">
             <span className="border-b-4 border-black">Get </span> In Touch{" "}
@@ -17,27 +17,37 @@ const Contact = () => {
 
         <div>
           <span className="text-lg font-bold">Provide Information</span>
+          <form action="https://getform.io/f/13bdcaea-28ae-466b-b772-6ffac7953bab" method="post">
           <div className="form-control w-80 bg-[#2a2b2b] border-none">
             <div className="form-control w-full max-w-xs border-none bg-[#2a2b2b]">
               <input
+              name="name"
                 type="text"
                 placeholder="Name here*"
                 className="input input-bordered w-full max-w-xs border-none"
               />
 
               <input
+              name="email"
                 type="text"
                 placeholder="Email here*"
                 className="input input-bordered w-full max-w-xs border-none my-4"
               />
 
               <textarea
+              name="message"
                 className="textarea"
                 placeholder="message here"
               ></textarea>
             </div>
-            <button className="btn btn-primary">Submmit</button>
+
+            <div className="flex items-center justify-center py-2">
+
+            <button className="btn btn-primary w-[200px] ">Submmit</button>
+            </div>
+          
           </div>
+          </form>
         </div>
       </footer>
     </>
