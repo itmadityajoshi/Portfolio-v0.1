@@ -1,18 +1,19 @@
 import React from "react";
+import {BsFacebook,BsTwitter,BsLinkedin,BsGithub} from 'react-icons/bs'
 
 const Contact = () => {
   return (
     <>
       <footer  name ='contact'className="footer p-10  bg-[#2a2b2b] text-white">
-        <div className="mx-16  ">
+        <div className="mx-16 ">
           <p className="font-bold text-3xl ">
-            <span className="border-b-4 border-black">Get </span> In Touch{" "}
+            <span className="border-b-4 border-red-500">Get </span> In Touch{" "}
           </p>
           <p>Sipadol-08, Suryabinayak, Bhaktapur.</p>
           <p>Nepal</p>
           <p>adityajoshi316@gmail.com</p>
           <p>+977 9860709627</p>
-          share : facebook twitter linkedin github
+          <p className="flex gap-4 ">  share : <BsFacebook/> <BsTwitter/> <BsLinkedin/>  <BsGithub/>  </p> 
         </div>
 
         <div>
@@ -31,7 +32,7 @@ const Contact = () => {
               name="email"
                 type="text"
                 placeholder="Email here*"
-                className="input input-bordered w-full max-w-xs border-none my-4"
+                className="input w-full  border-none my-4"
               />
 
               <textarea
@@ -43,7 +44,7 @@ const Contact = () => {
 
             <div className="flex items-center justify-center py-2">
 
-            <button className="btn btn-primary w-[200px] ">Submmit</button>
+            <button className="btn   btn-primary w-[100px] ">Submmit</button>
             </div>
           
           </div>

@@ -5,15 +5,16 @@ import { CiMail } from "react-icons/ci";
 import { BsPersonLinesFill } from "react-icons/bs";
 import { Link } from "react-scroll";
 
+
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const hadnleClick = () => setNav(!nav);
 
   return (
     <>
-      <div className="fixed z-10 w-full h-[80px] bg-[#2a2b2b] text-white flex justify-between items-center">
-        <div className="">
-          <img src="" alt="logo image" />
+      <div className="fixed   z-10 w-full h-[80px] bg-[#2a2b2b] text-white flex justify-between items-center">
+        <div className="flex items-center ">
+          <p className="p-52  font-bold text-4xl text-red-500 ">AJ</p>
         </div>
 
         {/* menu */}
@@ -67,11 +68,21 @@ const Navbar = () => {
               : " text-white absolute top-0 left-0 w-full h-screen bg-[#27292b] flex  flex-col items-center justify-center"
           }
         >
-          <li className="py-6 text-4xl ">Home </li>
-          <li className="py-6 text-4xl ">About</li>
-          <li className="py-6 text-4xl ">Skills</li>
-          <li className="py-6 text-4xl ">Work</li>
-          <li className="py-6 text-4xl ">Contact</li>
+          <li className="py-6 text-4xl "> <Link onClick={hadnleClick} to="home" smooth={true} duration={500}>
+                Home
+              </Link> </li>
+          <li className="py-6 text-4xl "><Link onClick={hadnleClick}  to="about" smooth={true} duration={700}>
+                About
+              </Link></li>
+          <li className="py-6 text-4xl "> <Link onClick={hadnleClick} to="skills" smooth={true} duration={500}>
+                Skills
+              </Link></li>
+          <li className="py-6 text-4xl ">  <Link onClick={hadnleClick} to="portfolio" smooth={true} duration={500}>
+                Portfolio
+              </Link></li>
+          <li className="py-6 text-4xl "> <Link onClick={hadnleClick} to="contact" smooth={true} duration={500}>
+                Contact
+              </Link></li>
         </div>
 
         {/* Social Icons */}
@@ -81,7 +92,7 @@ const Navbar = () => {
             <li className="w-[120px] h-[50px] bg-blue-600 flex items-center ml-[-80px] hover:ml-[-5px] duration-300">
               <a
                 className="flex justify-between  items-center  w-full "
-                href="#"
+                href="https://www.linkedin.com/in/aditya-joshi316/"
               >
                 Linkedin <FaLinkedinIn />{" "}
               </a>
@@ -90,7 +101,7 @@ const Navbar = () => {
             <li className="w-[120px] h-[50px] bg-gray-500 flex items-center ml-[-80px] hover:ml-[-5px] duration-300">
               <a
                 className="flex justify-between  items-center  w-full "
-                href="#"
+                href="https://github.com/ma-huu-Aditya"
               >
                 Github <FaGithub />{" "}
               </a>
@@ -99,7 +110,7 @@ const Navbar = () => {
             <li className="w-[120px] h-[50px] bg-green-400 flex items-center ml-[-80px] hover:ml-[-5px] duration-300">
               <a
                 className="flex justify-between  items-center  w-full "
-                href="#"
+                href="www.gmail.com"
               >
                 Mail <CiMail />{" "}
               </a>
