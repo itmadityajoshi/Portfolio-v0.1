@@ -12,40 +12,40 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="fixed   z-10 w-full h-[80px] bg-[#2a2b2b] text-white flex justify-between items-center">
+      <div className="fixed  z-10 w-full h-[80px] bg-[#2a2b2b] text-white flex justify-between items-center">
         <div className="flex items-center ">
-          <p className="p-52  font-bold text-4xl text-red-500 ">AJ</p>
+          <p className="sm:p-52 pl-8 font-bold text-4xl text-red-500 ">AJ</p>
         </div>
 
         {/* menu */}
 
-        <div>
-          <ul className="hidden md:flex mx-10 ">
-            <li>
-              <Link to="home" smooth={true} duration={500}>
-                Home
+        <div className="text-xl">
+          <ul className="hidden md:flex mx-10">
+            <li >
+              <Link to="home" smooth={true} duration={500} className="hover:border-b-2 border-red-600 hover:scale-125 ">
+                 Home
               </Link>
             </li>
             <li>
-              <Link to="about" smooth={true} duration={700}>
+              <Link to="about" smooth={true} duration={700} className="hover:border-b-2 border-red-600 hover:scale-125 ">
                 About
               </Link>
             </li>
             <li>
               {" "}
-              <Link to="skills" smooth={true} duration={500}>
+              <Link to="skills" smooth={true} duration={500} className="hover:border-b-2 border-red-600 hover:scale-125 ">
                 Skills
               </Link>
             </li>
             <li>
               {" "}
-              <Link to="portfolio" smooth={true} duration={500}>
+              <Link to="portfolio" smooth={true} duration={500} className="hover:border-b-2 border-red-600 hover:scale-125 ">
                 Portfolio
               </Link>
             </li>
             <li>
               {" "}
-              <Link to="contact" smooth={true} duration={500}>
+              <Link to="contact" smooth={true} duration={500} className="hover:border-b-2 border-red-600 hover:scale-125 ">
                 Contact
               </Link>
             </li>

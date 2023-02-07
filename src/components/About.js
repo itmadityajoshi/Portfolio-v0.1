@@ -18,6 +18,7 @@ const About = () => {
           <div className="max-w-[1368px] w-full grid sm:grid-cols-2 items-center gap-4">
 
             <div className="sm:text-right">
+              <img src='./assets/user1.jpg' alt="" />
               <p className="px-4 ">Hi, I'm Aditya Joshi. Please look around me.</p>
             </div>
 

@@ -1,5 +1,6 @@
 import React from "react";
 import { BsArrowRight } from "react-icons/bs";
+import { Link } from "react-scroll";
 
 const Home = () => {
   return (
@@ -17,7 +18,8 @@ const Home = () => {
 
           <div className=" py-4">
             <button className="group flex items-center border-2 h-12 px-2 hover:bg-red-600 hover:border-red-600 hover:text-black font-semibold">
-              View Work
+              <Link to="portfolio" smooth={true} duration={500}>
+              View Work </Link>
               <span className="group-hover:rotate-90 duration-300">
                 <BsArrowRight className="ml-2 text-lg" />
               </span>
