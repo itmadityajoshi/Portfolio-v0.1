@@ -14,7 +14,7 @@ const Navbar = () => {
     <>
       <div className="fixed  z-10 w-full h-[80px] bg-[#2a2b2b] text-white flex justify-between items-center">
         <div className="flex items-center ">
-          <p className="sm:p-52 pl-8 font-bold text-4xl text-red-500 ">AJ</p>
+          <img src="/assets/log.png" className="sm:h-44 sm:mx-44 w-full h-32" alt="" />
         </div>
 
         {/* menu */}
