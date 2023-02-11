@@ -5,7 +5,7 @@ import { Link } from "react-scroll";
 const Home = () => {
   return (
     <>
-      <div name="home" className="  h-screen bg-[#2a2b2b]">
+      <div name="home" className="  h-screen bg-[#2a2b2b] text-gray-400">
         {/* container */}
         <div className="max-w-[1000px] w-full  mx-auto text-white px-10 flex flex-col justify-center  h-full">
           <h1 className="text-4xl font-bold sm:text-4xl">I'M ADITYA JOSHI</h1>

@@ -14,7 +14,7 @@ const Navbar = () => {
     <>
       <div className="fixed  z-10 w-full h-[80px] bg-[#2a2b2b] text-white flex justify-between items-center">
         <div className="flex items-center ">
-          <img src="/assets/log.png" className="sm:h-44 sm:mx-44 w-full h-32" alt="" />
+          <img src="/assets/log.png" className=" md:mx-16 sm:mx-44 w-full h-32" alt="" />
         </div>
 
         {/* menu */}

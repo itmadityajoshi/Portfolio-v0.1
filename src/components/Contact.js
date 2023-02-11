@@ -4,8 +4,9 @@ import { BsFacebook, BsTwitter, BsLinkedin, BsGithub } from "react-icons/bs";
 const Contact = () => {
   return (
     <>
-      <footer name="contact" className="footer p-10  bg-[#2a2b2b] text-white">
-        <div className="mx-16 ">
+    
+      <footer name="contact" className="footer p-10   bg-[#2a2b2b] text-white">
+        <div className=" pl-14 ">
           <p className="font-bold text-3xl ">
             <span className="border-b-4 border-red-500">Get </span> In Touch{" "}
           </p>
@@ -21,7 +22,7 @@ const Contact = () => {
           </div>
         </div>
 
-        <div className="mx-10">
+        <div className="">
 
          <p className="text-2xl font-bold">  Let's  <span className=" text-red-500 text-3xl"> Collaborate</span> </p>
           <form
