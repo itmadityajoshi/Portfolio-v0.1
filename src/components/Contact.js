@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <>
     
-      <footer name="contact" className="footer p-10   bg-[#2a2b2b] text-white">
+      <footer name="contact" className="footer p-10   bg-[#2a2b2b] text-gray-400">
         <div className=" pl-14 ">
           <p className="font-bold text-3xl ">
             <span className="border-b-4 border-red-500">Get </span> In Touch{" "}
